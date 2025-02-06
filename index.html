@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- O que essa parte faz? R : Define o conjunto de caracteres de texto a serem processados como UTF-8 -->
+        <meta charset="UTF-8">
+
+        <!-- O que essa parte faz? R : Ajusta da janela de visualização com o conteúdo da página sendo renderizado com a largura do dispositivo e escala 1 : 1 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- O que essa parte faz? R : Coloca como título da página, ficando na "tab" como "Peixinho"-->
+        <title>Baiacu Mover</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+        </style>
+        <!-- O que essa parte faz? R : Puxa o conteúdo do Phaser para ser usado pela página antes do carregamento de outros elementos.-->
+        <script src="phaser.js"></script>
+    </head>
+
+
+    <body>
+        <!-- O que essa parte faz? R : Puxa o script peixe.js para ser usado. Perceba que o phaser.js foi colocado no head, isso ocorre pois queremos que o conteúdo desse sirva como base para o peixe.js, logo, sendo carregado antes.-->
+        <script src="peixe.js"></script>
+        <script>
+            var resposta = `Já programava antes. Entendi todas as partes do tutorial e tudo funcionou.`;
+        </script> 
+    </body>
+
+</html>
